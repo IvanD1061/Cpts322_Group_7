@@ -1,38 +1,32 @@
-Update your `README.md` using the template below. We are specifically interested in the installation instructions (e.g., all the gems, how to load real or seed data, etc.). This sample README was developed for a Rails project, so you can swap the "Gems" section of the "Installation" instructions to include add-ons that are relevant to you.
-
-If any of the sections in this template grows to more than one screen, consider placing it in its own file and linking to it from this file. Those files could live in a subdirectory called `docs`.
-
-**Make sure to check out the repo anew and test your installation instructions.**
-
-Provide a README file with the following information:
-
 # Project Name
+Welcome to the Cpts_322 Group 7 project: Food Bank Inventory Tracking System
 
 ## Project summary
 
+This project contains the codebase for the Acme Corp Food Bank for Washington State University Cpts_322. The group members are Nelson Goosman, Ivan Duenas, and Ivan Quintero.
+
+
 ### One-sentence description of the project
 
-TODO: A 20-second elevator pitch of your project - its core idea summarized in one sentence.
+The webapp supports two factor authentacation, multiple accounts, data analysis, tracking, and entry and is designed as a inventory tracking system for Acme Corp Food Bank.
 
 ### Additional information about the project
 
-TODO: Write a compelling/creative/informative project description / summary
+This project was created using the MEAN tech stack
 
 ## Installation
 
 ### Prerequisites
 
-TODO: List what a user needs to have installed before running the installation instructions below (e.g., git, which versions of Ruby/Rails)
+TODO
 
 ### Add-ons
 
-TODO: List which add-ons are included in the project, and the purpose each add-on serves in your app.
+TODO
 
 ### Installation Steps
 
-TODO: Describe the installation process (making sure you mention `bundle install`).
-Instructions need to be such that a user can just copy/paste the commands to get things set up and running. 
-
+TODO
 
 ## Functionality
 
