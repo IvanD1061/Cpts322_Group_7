@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title || 'Welcome to ACME Food Tracker!' }}</title>
+
+    <link rel="stylesheet" href="/HTML-CSS/home.css">
+
+</head>
+<body>
+    <div class="nav-container">
+        <table>
+            <tr>
+                <img src="/img/acme_logo.png" class="logo" alt="ACME Logo">
+                <td><a href="#/home" class="button">Home</a></td>
+                <td><a href="#/view-food-entries" class="button">View Food Entries</a></td>
+                <td><a href="#/add-food-entry" class="button">Add Food Entry</a></td>
+                <td><a href="#/view-reports" class="button">View Reports</a></td>
+                <td ng-if="!currentUser"><a href="#/login" class="button">Login</a></td>
+                <td ng-if="currentUser"><a href="#/logout" class="button">Logout</a></td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <div class="flash-container" ng-repeat="message in messages"> Welcome to the ACME Food tracker </div>
+    </div>
+    <div ng-view></div>
+
+    <!-- Include AngularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <!-- Include Angular Route -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.min.js"></script>
+    <!-- Include main AngularJS application file -->
+    <script src="app/app.js"></script>
+    <!-- Include controllers -->
+    <script src="app/controllers/homeController.js"></script>
+    <script src="app/controllers/foodEntriesController.js"></script>
+    <script src="app/controllers/addFoodEntryController.js"></script>
+    <script src="app/controllers/reportsController.js"></script>
+    <script src="app/controllers/authController.js"></script>
+</body>
+</html>

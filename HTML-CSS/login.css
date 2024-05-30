@@ -14,7 +14,7 @@ header {
     padding: 10px 0;
 }
 
-.container {
+.nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,8 +24,8 @@ header {
 }
 
 .logo {
-    width: 100px; 
-    height: 100px; 
+    width: 0px; 
+    height: 0px; 
     margin-right: 0px; 
 }
 
@@ -142,3 +142,5 @@ main {
 .sso-login:hover {
     background-color: #f0f0f0;
 }
+
+

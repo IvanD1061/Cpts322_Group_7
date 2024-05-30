@@ -1,0 +1,39 @@
+.logo {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 100px;
+}
+.flash-container {
+    max-width: 270px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid #c77c27;
+    font-weight: bold;
+    color: purple;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: black;
+    color: green;
+    border-radius: 100px;
+    cursor: pointer;
+    
+}
+.nav-container {
+    background-color: #007bff;
+    padding: 10px 0px;
+    border-radius: 20px;
+    border:2px solid black;
+}
+.button:hover {
+    background-color: blueviolet;
+    cursor:pointer;
+}
+
