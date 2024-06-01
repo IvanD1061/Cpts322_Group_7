@@ -1,6 +1,6 @@
 # Project Name
 Welcome to the Cpts_322 Group 7 project: Food Bank Inventory Tracking System
-
+Note: Refer to readme under main branch for most up to date info
 ## Project summary
 
 This project contains the codebase for the Acme Corp Food Bank for Washington State University Cpts_322. The group members are Nelson Goosman, Ivan Duenas, and Ivan Quintero.
