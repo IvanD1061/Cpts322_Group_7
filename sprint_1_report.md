@@ -1,4 +1,6 @@
 # Sprint 1 Report: Team 7 (5/6-5/31, 2024)
+## Video Link
+https://youtu.be/_Pz-l42Cjf0
 ## Whats new
 Since we started from scratch at the start of this project, our team devoted the start of the sprint to learning our tech stack. Since the frontend was our first priority, we began
 by learning HTML, CSS, and Angular as well as the basics of javascript and node. We then began implimenting the frontend and so far have an angular project with a login page
