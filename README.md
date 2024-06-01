@@ -18,15 +18,15 @@ This project was created using the MEAN tech stack
 
 ### Prerequisites
 
-TODO
+Web Browser
+Node JS
+Angular JS
+Mongo DB
+Express JS
 
 ### Add-ons
 
-TODO
-
-### Installation Steps
-
-TODO
+None
 
 ## Functionality
 
@@ -36,8 +36,7 @@ and showcase your features.
 
 ## Known Problems
 
-TODO: Describe any known issues, bugs, odd behaviors or code smells. 
-Provide steps to reproduce the problem and/or name a file or a function where the problem lives.
+Only frontend implimented so far, need server functions
 
 
 ## Contributing
