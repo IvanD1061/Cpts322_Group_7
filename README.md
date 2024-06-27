@@ -30,13 +30,60 @@ None
 
 ## Functionality
 
-TODO: Write usage instructions. Structuring it as a walkthrough can help structure this section,
-and showcase your features.
+Sign Up
+
+Navigate to the Sign-Up Page:
+
+Open your web browser and go to the Acme Corp Food Bank Inventory Tracking System's URL.
+Click on the "Sign Up" link located on the homepage.
+Create an Account:
+
+Fill in the required fields: Email and Password
+Click the "Sign Up" button.
+
+2. Log In
+
+Navigate to the Login Page:
+
+On the homepage, click the "Login" link.
+Enter Your Credentials:
+
+Input your email and Password.
+Click the "Login" button.
+Upon successful login, you will be redirected to the dashboard.
+
+3. Dashboard Overview
+
+Once logged in, you will see the dashboard with five buttons:
+
+Home:
+
+Click this button to return to the Home Screen from any other page.
+
+View Food Entries:
+
+This feature allows you to view all food entries you have created.
+Click on the "View Food Entries" button to see a list of your food items along with their details.
+
+Add Food Entry:
+
+Use this feature to add new food items to your inventory.
+Click the "Add Food Entry" button.
+Adding a New Food Entry
+Enter Food Details:
+
+Item Name: Input the name of the food item.
+Item Description: Provide a brief description of the item.
+Expiration Date: Select the expiration date from the date picker.
+Price: Enter the price of the item.
+Save to Database:
+
+Once all fields are filled, click the "Save" button.
+The food entry will be saved in the MongoDB database and can be viewed under "View Food Entries".
 
 
 ## Known Problems
-
-Only frontend implimented so far, need server functions
+querying data from the database then displaying on the given page. 
 
 
 ## Contributing
